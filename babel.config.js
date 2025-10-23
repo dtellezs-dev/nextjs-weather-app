@@ -1,0 +1,1 @@
+module.exports = { presets: [["next/babel", { "preset-env": {}, "react": { "runtime": "automatic" } }]] };

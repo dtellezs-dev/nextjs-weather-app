@@ -1,0 +1,19 @@
+# Dependencias y builds
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Archivos del entorno
+.env.local
+.env
+npm-debug.log*
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.lock
