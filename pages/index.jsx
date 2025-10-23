@@ -14,7 +14,7 @@ export default function Home() {
     setWeather(null)
     if (!city.trim()) { setError('Por favor ingresa el nombre de una ciudad'); return }
     setLoading(true)
-    try {
+      try {
       const res = await axios.get(`/api/weather?city=${encodeURIComponent(city)}`)
       setWeather(res.data)
     } catch (err) {
